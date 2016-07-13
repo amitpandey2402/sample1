@@ -13,7 +13,7 @@ text-indent:50px;}
 </head>
 <body>
 <p>this is editing </p>
-<body>
+</body>
 
 
 </html>
