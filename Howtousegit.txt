@@ -1,0 +1,38 @@
+step 1: open gitbash terminal
+step 2: cd to a particular folder
+step 3: "git init"  this command will create a hidden .git folder
+step 4:create some text file under taht particular folder
+step 5: in gitbash terminal check "git status".There will be some file 
+step 6: now "git add *" it will add all files which are present in that folder (staged stage)
+step 7:now " git commit -m "any msg" "  this comand ll confirm all the chnges. Ready to push
+step 8:Add some remote repository so first make any github account and make new repostiory clone that repo
+and in git bash "git remote add nickname url(cloned  ur repo of git hub here)"
+step 9:Now "git remote" thsi command to check that there is any remote repo is added or not it ll giove nickmname
+step 10:"git push -f nickname master" to forcefully push ur files to ur github repo.
+step 11:if server time out? then set proxy by "git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080"
+""git config --global http.proxy http://AM334570:Am?t24021993@proxy.wipro.com:8080""
+
+and then push
+
+
+Branch:::
+
+step 1: make a new branch "git branch branchname"
+step 2:shifted to that branch(moving to that branch by command )
+       "git checkout branchname"
+step 3:above two stepos can also be done in a sinle command
+       "git checkout -b branchname"
+        it ll create or move to that branch
+step 4:check how many branhces u hv with master 
+       "git branch"
+step 5:now add some file making chnges in already existing file after doing all type of modification 
+       Add all chnges "git add --all"
+       Commit all changes "git commit -m "msg" "
+step 6: move or shift to master branch "git checkout master"
+step 7: if u want to push this newly created branch to github 
+just "git push nickname branchname "
+
+
+pull:::
+
+pull is same as push .Pulling the files from remote repository to your pc(local repo)
